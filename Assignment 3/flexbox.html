@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .con{
+        height: 700px;
+        border: 1px solid black;
+    }
+    .header, .footer{
+        height: 20%;
+        background-color: rgb(88, 39, 11);
+    }
+    .center{
+        height: 60%;
+        background-color: burlywood;
+        display: flex;
+    }
+    .left{
+        height: 100%;
+        width: 30%;
+        background-color: rgb(185, 204, 154);
+    }
+    .right{
+        height: 100%;
+        width: 70%;
+        background-color: rgb(165, 101, 28);
+        }
+        .top{
+            height: 50%;
+            background-color: beige;
+        }
+        .bottom{
+            height: 50%;
+            background-color: cornsilk;
+            display: flex;
+        }
+        .a{
+            height: 100%;
+            width: 50%;
+            background-color: wheat;
+        }
+        .b{
+          height: 100%;
+            width: 50%;
+            background-color: rgb(185, 212, 153);  
+        }
+</style>
+<body>
+    <h1 align=" center">Flex box</h1>
+    <div class="con">
+        <div class="header"><h2 align="center">Header</h2></div>
+        <div class="center">
+            <div class="left"><h2 align="center">Left</h2></div>
+            <div class="right">
+                <div class="top"><h2 align="center">Top</h2></div>
+                <div class="bottom">
+                    <div class="a"><h2 align="center">Bottom Left</h2></div>
+                    <div class="b"><h2 align="center">Bottom Right</h2></div>
+                </div>
+            </div>
+        </div>
+        <div class="footer"><h2 align="center">Footer</h2></div>
+    </div>
+</body>
+</html>
